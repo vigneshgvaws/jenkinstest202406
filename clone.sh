@@ -1,14 +1,9 @@
-@Library(['ist-switch-jenkins-pipeline-library@stable-1', 'common-lib@2-stable']) _
 
-pipeline {
-    agent any
+p
 
-    environment {
-        PARAM_FILE = 'params.yaml'
-        RELEASE_INFO_FILE = 'release-info.yaml'
-        NODE_NAME = 'IST_GUI'
-        DEFAULT_BUILD_COMPONENT = 'guiscan'
-        CODESCAN_BUILD_COMPONENT = 'gui'
+
+
+
     }
 
     stages {
